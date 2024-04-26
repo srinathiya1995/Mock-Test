@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="mock.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body oncontextmenu="return false;" onselectstart="return false;">
+    <!-- Header Starts -->
+    <nav class="navbar navbar-expand-lg bg-body-light">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img src="./Layer 1.png" alt="" class="w-75"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://aitechacademy.org/about-us/"
+                >About</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                aria-="true"
+                href="https://aitechacademy.org/our-courses/"
+                >Course</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-="true" href="./mock.html">Mock Test</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                aria-="true"
+                href="https://aitechacademy.org/contact-us/"
+                >Contact</a
+              >
+            </li>
+          </ul>
+          <div
+            class="login-nav d-flex justify-content-center align-items-center"
+          >
+            <a href="#">Register</a>
+            <button class="btn btn-primary" type="submit">Login</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Header Ends -->
+    <section id="mock">
+      <div class="container">
+        <div class="row">
+          <!-- Left Side - List with Data Filters -->
+          <div class="mock-test col-md-3 my-3">
+            <h2 class="mt-3 mb-3">Mock Test</h2>
+            <hr width="75%" />
+            <h3 class="mt-3 mx-2">UI/UX Design</h3>
+            <ul id="uiux-list" class="list-group mb-3">
+              <li class="list-group-item" data-content="#mock-test-01">
+                Mock Test 01
+              </li>
+              <li class="list-group-item" data-content="#practice-test-01">
+                Practice Test 01
+              </li>
+              <li class="list-group-item" data-content="#mock-test-02">
+                Mock Test 02
+              </li>
+              <li class="list-group-item" data-content="#practice-test-02">
+                Practice Test 02
+              </li>
+            </ul>
+            <h3>Web Development</h3>
+            <ul id="webdev-list" class="list-group">
+              <li class="list-group-item" data-content="#webmock-test-01">
+                Mock Test 03
+              </li>
+              <li class="list-group-item" data-content="#webpractice-test-01">
+                Practice Test 03
+              </li>
+              <li class="list-group-item" data-content="#webmock-test-02">
+                Mock Test 04
+              </li>
+              <li class="list-group-item" data-content="#webpractice-test-02">
+                Practice Test 04
+              </li>
+            </ul>
+          </div>
+
+          <!-- Right Side - Content Area -->
+          <div class="col-md-9 p-5">
+            <div id="content">
+              <!-- Content will be dynamically populated here -->
+              <div class="ui-uxdesign-test">
+                <h2>UI/UX Design and Web Development</h2>
+                <p>
+                  Welcome to the UI/UX Design and Web Development Mock Test!
+                  This test is designed to assess your knowledge and proficiency
+                  in the exciting fields of User Interface (UI) and User
+                  Experience (UX) Design, as well as Web Development.
+                </p>
+                <p>
+                  We have prepared the mock test for UI/UX Design as well as web
+                  development. There will be two mock tests and two practical
+                  tests on each topic.
+                </p>
+                <ol>
+                  <h3 class="mx-0 my-3">UI/UX Design Test</h3>
+                  <ul>
+                    <li class="mb-3">
+                      <strong>Mock Test 01: </strong> The test will be conducted
+                      in Google Form, and questions are to be filled in Google
+                      Sheet.
+                    </li>
+                    <li class="mb-3">
+                      <strong> Practical Test 01: </strong>The practical test
+                      contains the recreation of a resume portfolio website,
+                      which undergoes all the processes of UI/UX Design - Low
+                      Fidelity, High Fidelity, Prototype, & UX process.
+                    </li>
+                    <li class="mb-3">
+                      <strong> Mock Test 02: </strong>Similar to mock test 01,
+                      the test will be conducted in Google Form, and questions
+                      are to be filled and submitted through Google Sheet.
+                    </li>
+                    <li class="mb-3">
+                      <strong>Practical Test 02:</strong> The practical test is
+                      to design a food delivery mobile app design. which
+                      undergoes all the processes of UI/UX Design - Low
+                      Fidelity, High Fidelity, Prototype, & UX process.
+                    </li>
+                  </ul>
+                </ol>
+              </div>
+              <div class="web-devtest">
+                <ol>
+                  <h3 class="mx-0 my-3">Web Development Test</h3>
+                  <ul>
+                    <li class="mb-3">
+                      <strong>Mock Test 03: </strong> The test will be conducted
+                      in Google Form, and questions are to be filled in Google
+                      Sheet.
+                    </li>
+                    <li class="mb-3">
+                      <strong> Practical Test 03: </strong>The practical test
+                      contains the recreation of a resume portfolio website,
+                      which we design earlier on "practical test 01: UI/UX
+                      design". Create a website using HTML/CSS
+                    </li>
+                    <li class="mb-3">
+                      <strong> Mock Test 04: </strong>Similar to mock test 01,
+                      the test will be conducted in Google Form, and questions
+                      are to be filled and submitted through Google Sheet.
+                    </li>
+                    <li class="mb-3">
+                      <strong>Practical Test 04:</strong> The practical test
+                      contains the recreation of a food delivery website, which
+                      we design earlier on "practical test 02: UI/UX design".
+                      Create a website using HTML/CSS
+                    </li>
+                  </ul>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Side Content -->
+      <div id="mock-test-01" style="display: none" class="">
+        <h2 class="mb-3">Mock Test 01: UI/UX Design</h2>
+        <p class="mb-3">
+          Please proceed to the provided link to commence the test, where you
+          will find a series of mock questions prepared in a Google Form format.
+          Each question carries a single mark, and the scoring will be digitally
+          validated by the trainer. Thank you for your cooperation.
+        </p>
+        <p class="mb-3">
+          To initiate the composition of Mock Test 01, kindly click on the
+          following link. Your participation in this assessment is appreciated,
+        </p>
+        <p
+          class="all-best d-flex justify-content-center align-items-center py-4"
+        >
+          "All the best!"
+        </p>
+        <h3 class="mt-5 mb-3">Start Writing Test</h3>
+        <p class="mb-3">
+          Click below link <strong> "Mock Test 01: UI/UX Design"</strong>,
+        </p>
+        <p
+          class="mb-3 p-4"
+          style="font-size: 18px; font-weight: 600; background: #f3f3f3"
+        >
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSeBH1v5PYJw6mxxJB4lIwCzWK9mTWNpo0AJKK0Tp8ndTSUVXg/viewform?usp=sf_link"
+            target="_blank"
+            >Mock Test 01: UI/UX Design</a
+          >
+        </p>
+        <p class="mb-3">
+          We extend our appreciation for your successful completion of the mock
+          test. Thank you for your participation.
+        </p>
+        <h3 class="py-3">Submit Your Answers</h3>
+        <form
+          class="row"
+          id="contactForm"
+          method="post"
+          action="./contactform.php"
+        >
+          <div class="col-sm-12">
+            <div class="form-group">
+              <input
+                id="name-contact"
+                name="name"
+                placeholder="Name"
+                type="text"
+                required
+              />
+              <input
+                id="email-contact"
+                name="email"
+                placeholder="Email"
+                type="email"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="col-sm-12">
+            <div class="form-group">
+              <textarea
+                id="message-contact"
+                placeholder="Message"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+          </div>
+          <!--  <div class="g-recaptcha" data-sitekey="6Ldj1JopAAAAAGH42EDG7weoCfsxpOLAJUezs5dd"></div> -->
+          <div class="col-sm-12">
+            <div class="form-group">
+              <button
+                type="submit"
+                class="btn btn-primary mx-auto mt-3"
+                id="test-submit"
+                onclick="openNextTest()"
+              >
+                Send Message
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div id="practice-test-01" style="display: none">
+        <h2 class="mb-3">Practical Test 01: Resume Portfolio</h2>
+        <p class="mb-3">Congraluations On completing Mock Test 01!</p>
+        <p class="mb-3">
+          Hi Students, We are going to create a design in figma for UI/UX
+          Design. We’ll concentrate on both UI and UX Research. The portfolio
+          will play a crucial role in your future in the interview process. So,
+          take the work seriously and do the task carefully.
+        </p>
+        <h3>Mark Required</h3>
+        <ul>
+          <li>Wireframing: 5 Marks</li>
+          <li>Prototype: 5 Marks</li>
+          <li>Interaction: 5 Marks</li>
+          <li>UX Research: 10 Marks</li>
+        </ul>
+        <h3>Instructions</h3>
+        <p class="mb-3">
+          Hereby, We created the project description for resume portfolio. All
+          instructions are given clearly for your understand. As per the
+          instruction create a single portfolio for your future purpose.
+        </p>
+        <p
+          class="mb-3 p-4"
+          style="font-size: 18px; font-weight: 600; background: #f3f3f3"
+        >
+          <a href="Practical Test 01 - Resume Portfolio.pdf" target="_blank"
+            >Practical Test 01: Resume Portfolio</a
+          >
+        </p>
+        <p
+          class="all-best d-flex justify-content-center align-items-center py-4"
+        >
+          "All the best!"
+        </p>
+        <h3 class="py-3">Submit Your Answers</h3>
+        <form
+          class="row"
+          id="contactForm"
+          method="post"
+          action="./contactform.php"
+        >
+          <div class="col-sm-12">
+            <div class="form-group">
+              <input
+                id="name-contact"
+                name="name"
+                placeholder="Name"
+                type="text"
+                required
+              />
+              <input
+                id="email-contact"
+                name="email"
+                placeholder="Email"
+                type="email"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="col-sm-12">
+            <div class="form-group">
+              <textarea
+                id="message-contact"
+                placeholder="Message"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+          </div>
+          <!--  <div class="g-recaptcha" data-sitekey="6Ldj1JopAAAAAGH42EDG7weoCfsxpOLAJUezs5dd"></div> -->
+          <div class="col-sm-12">
+            <div class="form-group">
+              <button
+                type="submit"
+                class="btn btn-primary mx-auto mt-3"
+                id="test-submit"
+                onclick="openNextTest()"
+              >
+                Send Message
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div id="mock-test-02" style="display: none">
+        <h2 class="mb-3">Mock Test 02: UI/UX Design</h2>
+        <p class="mb-3">
+          Please proceed to the provided link to commence the test, where you
+          will find a series of mock questions prepared in a Google Form format.
+          Each question carries a single mark, and the scoring will be digitally
+          validated by the trainer. Thank you for your cooperation.
+        </p>
+        <p class="mb-3">
+          To initiate the composition of Mock Test 02, kindly click on the
+          following link. Your participation in this assessment is appreciated,
+        </p>
+        <p
+          class="all-best d-flex justify-content-center align-items-center py-4"
+        >
+          "All the best!"
+        </p>
+        <h3 class="mb-3">Start Writing Test</h3>
+        <p class="mb-3">
+          Click below link <strong> "Mock Test 02: UI/UX Design"</strong>,
+        </p>
+        <p
+          class="mb-3 p-4"
+          style="font-size: 18px; font-weight: 600; background: #f3f3f3"
+        >
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSe9gLoLF6RAw18pGwJ0qAqOkuAGWkGEV6sEMogVU-F8Ft_QkQ/viewform?usp=sf_link"
+            target="_blank"
+            >Mock Test 02: UI/UX Design</a
+          >
+        </p>
+        <p class="mb-3">
+          We extend our appreciation for your successful completion of the mock
+          test. Thank you for your participation.
+        </p>
+        <h3 class="py-3">Submit Your Answers</h3>
+        <form
+          class="row"
+          id="contactForm"
+          method="post"
+          action="./contactform.php"
+        >
+          <div class="col-sm-12">
+            <div class="form-group">
+              <input
+                id="name-contact"
+                name="name"
+                placeholder="Name"
+                type="text"
+                required
+              />
+              <input
+                id="email-contact"
+                name="email"
+                placeholder="Email"
+                type="email"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="col-sm-12">
+            <div class="form-group">
+              <textarea
+                id="message-contact"
+                placeholder="Message"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+          </div>
+          <!--  <div class="g-recaptcha" data-sitekey="6Ldj1JopAAAAAGH42EDG7weoCfsxpOLAJUezs5dd"></div> -->
+          <div class="col-sm-12">
+            <div class="form-group">
+              <button
+                type="submit"
+                class="btn btn-primary mx-auto mt-3"
+                id="test-submit"
+                onclick="openNextTest()"
+              >
+                Send Message
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div id="practice-test-02" style="display: none">
+        <h2 class="mb-3">Practical Test 02: Food Deliver App</h2>
+        <p class="mb-3">Congraluations On completing Mock Test 01!</p>
+        <p class="mb-3">
+          Hi Students, We are going to create a design in figma for Mobile App
+          Design. We’ll concentrate on both UI and UX Research. The project will
+          play a crucial role in your future in the interview process. And also,
+          you can able to include this project in your portfolio.
+        </p>
+        <h3>Mark Required</h3>
+        <ul>
+          <li>Wireframing: 5 Marks</li>
+          <li>Prototype: 5 Marks</li>
+          <li>Interaction: 5 Marks</li>
+          <li>UX Research: 10 Marks</li>
+        </ul>
+        <h3>Instructions</h3>
+        <p class="mb-3">
+          Hereby, We created the project description for food delivery mobile
+          app. All instructions are given clearly for your understand. As per
+          the instruction create a design for your future purpose.
+        </p>
+        <p
+          class="mb-3 p-4"
+          style="font-size: 18px; font-weight: 600; background: #f3f3f3"
+        >
+          <a href="Practical Test 02_ Food Delivery App.pdf" target="_blank"
+            >Practical Test 02: Food Deliver App</a
+          >
+        </p>
+        <p
+          class="all-best d-flex justify-content-center align-items-center py-4"
+        >
+          "All the best!"
+        </p>
+        <h3 class="py-3">Submit Your Answers</h3>
+        <form
+          class="row"
+          id="contactForm"
+          method="post"
+          action="./contactform.php"
+        >
+          <div class="col-sm-12">
+            <div class="form-group">
+              <input
+                id="name-contact"
+                name="name"
+                placeholder="Name"
+                type="text"
+                required
+              />
+              <input
+                id="email-contact"
+                name="email"
+                placeholder="Email"
+                type="email"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="col-sm-12">
+            <div class="form-group">
+              <textarea
+                id="message-contact"
+                placeholder="Message"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+          </div>
+          <!--  <div class="g-recaptcha" data-sitekey="6Ldj1JopAAAAAGH42EDG7weoCfsxpOLAJUezs5dd"></div> -->
+          <div class="col-sm-12">
+            <div class="form-group">
+              <button
+                type="submit"
+                class="btn btn-primary mx-auto mt-3"
+                id="test-submit"
+                onclick="openNextTest()"
+              >
+                Send Message
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <!-- Website Development Mock 01 -->
+      <div id="webmock-test-01" style="display: none" class="">
+        <h2 class="mb-3">Mock Test 03: Web Development</h2>
+        <p class="mb-3">
+          Please proceed to the provided link to commence the test, where you
+          will find a series of mock questions prepared in a Google Form format.
+          Each question carries a single mark, and the scoring will be digitally
+          validated by the trainer. Thank you for your cooperation.
+        </p>
+        <p class="mb-3">
+          To initiate the composition of Mock Test 03, kindly click on the
+          following link. Your participation in this assessment is appreciated,
+        </p>
+        <p
+          class="all-best d-flex justify-content-center align-items-center py-4"
+        >
+          "All the best!"
+        </p>
+        <h3 class="mb-3">Start Writing Test</h3>
+        <p class="mb-3">
+          Click below link <strong> "Mock Test 03: Web Development"</strong>,
+        </p>
+        <p
+          class="mb-3 p-4"
+          style="font-size: 18px; font-weight: 600; background: #f3f3f3"
+        >
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfgwBYyYBhltogOnJknp_wlE8OZW5xi_BZMV2s6i5bRYs9ZoQ/viewform?usp=sf_link"
+            target="_blank"
+            >Mock Test 03: Web Development</a
+          >
+        </p>
+        <p class="mb-3">
+          We extend our appreciation for your successful completion of the mock
+          test. Thank you for your participation.
+        </p>
+        <h3 class="py-3">Submit Your Answers</h3>
+        <form
+          class="row"
+          id="contactForm"
+          method="post"
+          action="./contactform.php"
+        >
+          <div class="col-sm-12">
+            <div class="form-group">
+              <input
+                id="name-contact"
+                name="name"
+                placeholder="Name"
+                type="text"
+                required
+              />
+              <input
+                id="email-contact"
+                name="email"
+                placeholder="Email"
+                type="email"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="col-sm-12">
+            <div class="form-group">
+              <textarea
+                id="message-contact"
+                placeholder="Message"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+          </div>
+          <!--  <div class="g-recaptcha" data-sitekey="6Ldj1JopAAAAAGH42EDG7weoCfsxpOLAJUezs5dd"></div> -->
+          <div class="col-sm-12">
+            <div class="form-group">
+              <button
+                type="submit"
+                class="btn btn-primary mx-auto mt-3"
+                id="test-submit"
+                onclick="openNextTest()"
+              >
+                Send Message
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <!-- Website Development Practical 01 -->
+      <div id="webpractice-test-01" style="display: none" class="">
+        <h2 class="mb-3">Practical Test 03: Resume Portfolio (HTML/CSS)</h2>
+        <p class="mb-3">Congraluations On completing Mock Test 01!</p>
+        <p class="mb-3">
+          Hi Students, We are going to create a develop the "Practical test 01:
+          Resume Portfolio". The portfolio will play a crucial role in your
+          future in the interview process. So, take the work seriously and do
+          the task carefully.
+        </p>
+        <h3>Mark Required</h3>
+        <ul>
+          <li>Code Structure: 5 Marks</li>
+          <li>Color: 5 Marks</li>
+          <li>Alignment: 5 Marks</li>
+          <li>Typography: 5 Marks</li>
+          <li>Navigation: 5 Marks</li>
+        </ul>
+        <h3>Instructions</h3>
+        <p class="mb-3">
+          Hereby, We created the project description for resume portfolio. All
+          instructions are given clearly for your understand. As per the
+          instruction create a single portfolio only using HTML/CSS. Responsive
+          for different platforms (Desktop, Mobile, Tablet) will be your DIY
+          (Do-It-Yourself).
+        </p>
+        <p
+          class="mb-3 p-4"
+          style="font-size: 18px; font-weight: 600; background: #f3f3f3"
+        >
+          <a href="Practical Test 03_ Resume Portfolio.pdf" target="_blank"
+            >Practical Test 03: Resume Portfolio (HTML/CSS)</a
+          >
+        </p>
+        <p
+          class="all-best d-flex justify-content-center align-items-center py-4"
+        >
+          "All the best!"
+        </p>
+        <h3 class="py-3">Submit Your Answers</h3>
+        <form
+          class="row"
+          id="contactForm"
+          method="post"
+          action="./contactform.php"
+        >
+          <div class="col-sm-12">
+            <div class="form-group">
+              <input
+                id="name-contact"
+                name="name"
+                placeholder="Name"
+                type="text"
+                required
+              />
+              <input
+                id="email-contact"
+                name="email"
+                placeholder="Email"
+                type="email"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="col-sm-12">
+            <div class="form-group">
+              <textarea
+                id="message-contact"
+                placeholder="Message"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+          </div>
+          <!--  <div class="g-recaptcha" data-sitekey="6Ldj1JopAAAAAGH42EDG7weoCfsxpOLAJUezs5dd"></div> -->
+          <div class="col-sm-12">
+            <div class="form-group">
+              <button
+                type="submit"
+                class="btn btn-primary mx-auto mt-3"
+                id="test-submit"
+                onclick="openNextTest()"
+              >
+                Send Message
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <!-- Website Development Mock 02 -->
+      <div id="webmock-test-02" style="display: none" class="">
+        <h2 class="mb-3">Mock Test 04: Web Development</h2>
+        <p class="mb-3">
+          Please proceed to the provided link to commence the test, where you
+          will find a series of mock questions prepared in a Google Form format.
+          Each question carries a single mark, and the scoring will be digitally
+          validated by the trainer. Thank you for your cooperation.
+        </p>
+        <p class="mb-3">
+          To initiate the composition of Mock Test 04, kindly click on the
+          following link. Your participation in this assessment is appreciated,
+        </p>
+        <p
+          class="all-best d-flex justify-content-center align-items-center py-4"
+        >
+          "All the best!"
+        </p>
+        <h3 class="mb-3">Start Writing Test</h3>
+        <p class="mb-3">
+          Click below link <strong> "Mock Test 04: Web Development"</strong>,
+        </p>
+        <p
+          class="mb-3 p-4"
+          style="font-size: 18px; font-weight: 600; background: #f3f3f3"
+        >
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfU9vthTZnv6-S-nfuTKQkd8r9KvVD23b6QJ0TPCXpSRfIwFA/viewform?usp=sf_link"
+            target="_blank"
+            >Mock Test 04: Web Development</a
+          >
+        </p>
+        <p class="mb-3">
+          We extend our appreciation for your successful completion of the mock
+          test. Thank you for your participation.
+        </p>
+        <h3 class="py-3">Submit Your Answers</h3>
+        <form
+          class="row"
+          id="contactForm"
+          method="post"
+          action="./contactform.php"
+        >
+          <div class="col-sm-12">
+            <div class="form-group">
+              <input
+                id="name-contact"
+                name="name"
+                placeholder="Name"
+                type="text"
+                required
+              />
+              <input
+                id="email-contact"
+                name="email"
+                placeholder="Email"
+                type="email"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="col-sm-12">
+            <div class="form-group">
+              <textarea
+                id="message-contact"
+                placeholder="Message"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+          </div>
+          <!--  <div class="g-recaptcha" data-sitekey="6Ldj1JopAAAAAGH42EDG7weoCfsxpOLAJUezs5dd"></div> -->
+          <div class="col-sm-12">
+            <div class="form-group">
+              <button
+                type="submit"
+                class="btn btn-primary mx-auto mt-3"
+                id="test-submit"
+                onclick="openNextTest()"
+              >
+                Send Message
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <!-- Website Development Practical 01 -->
+      <div id="webpractice-test-02" style="display: none" class="">
+        <h2 class="mb-3">
+          Practical Test 04: Food Delivery Website (HTML/CSS/Bootstrap)
+        </h2>
+        <p class="mb-3">Congraluations On completing Mock Test 01!</p>
+        <p class="mb-3">
+          Hi Students, We are going to create a develop the "Practical test 02:
+          Food Delivery App". The project will play a crucial role in your
+          future in the interview process. So, take the work seriously and do
+          the task carefully.
+        </p>
+        <h3>Mark Required</h3>
+        <ul>
+          <li>Code Structure: 5 Marks</li>
+          <li>Color: 5 Marks</li>
+          <li>Alignment: 5 Marks</li>
+          <li>Typography: 5 Marks</li>
+          <li>Navigation: 5 Marks</li>
+        </ul>
+        <h3>Instructions</h3>
+        <p class="mb-3">
+          Hereby, We created the project description for resume portfolio. All
+          instructions are given clearly for your understand. As per the
+          instruction create a project only using HTML/CSS/Bootstrap. Responsive
+          for different platforms (Desktop, Mobile, Tablet) will be your DIY
+          (Do-It-Yourself).
+        </p>
+        <p
+          class="mb-3 p-4"
+          style="font-size: 18px; font-weight: 600; background: #f3f3f3"
+        >
+          <a
+            href="Practical Test 04_ Food Delivery Website (HTML_CSS_Bootstrap).pdf"
+            target="_blank"
+            >Practical Test 04: Food Delivery Website
+          </a>
+        </p>
+        <p
+          class="all-best d-flex justify-content-center align-items-center py-4"
+        >
+          "All the best!"
+        </p>
+        <h3 class="py-3">Submit Your Answers</h3>
+        <form
+          class="row"
+          id="contactForm"
+          method="post"
+          action="./contactform.php"
+        >
+          <div class="col-sm-12">
+            <div class="form-group">
+              <input
+                id="name-contact"
+                name="name"
+                placeholder="Name"
+                type="text"
+                required
+              />
+              <input
+                id="email-contact"
+                name="email"
+                placeholder="Email"
+                type="email"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="col-sm-12">
+            <div class="form-group">
+              <textarea
+                id="message-contact"
+                placeholder="Message"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+          </div>
+          <!--  <div class="g-recaptcha" data-sitekey="6Ldj1JopAAAAAGH42EDG7weoCfsxpOLAJUezs5dd"></div> -->
+          <div class="col-sm-12">
+            <div class="form-group">
+              <button
+                type="submit"
+                class="btn btn-primary mx-auto mt-3"
+                id="test-submit"
+                onclick="openNextTest()"
+              >
+                Send Message
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- Footer Starts -->
+
+    <div class="container">
+      <footer class="py-3">
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-muted">Home</a>
+          </li>
+          <li class="nav-item">
+            <a
+              href="https://aitechacademy.org/about-us/"
+              class="nav-link px-2 text-muted"
+              >About</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              href="https://aitechacademy.org/our-courses/"
+              class="nav-link px-2 text-muted"
+              >Course</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-muted">Mock Test</a>
+          </li>
+          <li class="nav-item">
+            <a
+              href="https://aitechacademy.org/contact-us/"
+              class="nav-link px-2 text-muted"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </footer>
+    </div>
+    <!-- Footer Ends -->
+    <script src="./contactform.php"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

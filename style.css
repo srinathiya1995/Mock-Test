@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  color: #212121;
+}
+
+/* Typography & Color */
+h1 {
+  font-size: 34px;
+  line-height: 42px;
+  max-width: 675px;
+}
+h2 {
+  font-size: 24px;
+  line-height: 36px;
+}
+h3 {
+  font-size: 21px;
+  line-height: 1.2;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+p {
+  font-size: 15px;
+  line-height: 28px;
+}
+
+/* Button Queries */
+.login-nav button {
+  width: 110px;
+  height: 45px;
+  font-size: 15px;
+  font-weight: 500;
+}
+#hero .btn-primary {
+  width: 150px;
+  height: 54px;
+  font-size: 15px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#course button {
+  width: 160px;
+  height: 54px;
+  padding: 5px;
+  font-size: 15px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#enquires button {
+  width: 160px;
+  height: 54px;
+  padding: 5px;
+  font-size: 15px;
+  font-weight: 500;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+/* NAV MENU STARTS */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-nav li .nav-link {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+
+.login-nav {
+  gap: 15px;
+}
+
+.login-nav a {
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #000;
+}
+
+/* HERO SECTION STARTS */
+
+#hero {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(Landing_Bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  margin: 15px auto;
+}
+
+#hero p {
+  font-size: 18px;
+  line-height: 32px;
+  max-width: 425px;
+  font-weight: 400;
+}
+
+#course {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+.course-heading {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #333;
+}
+.box-text {
+  font-size: 14px;
+  font-weight: 400;
+}
+.box-container .box {
+  width: 96%;
+  height: 275px;
+  background: #fff;
+  border: 1px solid #d1d1d1;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 8px auto;
+}
+.box img {
+  width: 48px;
+  height: auto;
+}
+
+.box-container .box:hover {
+  transform: scale(0.98);
+  border: 1px solid #868686;
+}
+.box h3 {
+  font-size: 19px;
+  font-weight: 500;
+}
+#about {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#about img {
+  width: 75%;
+}
+#enquires {
+  min-height: 80vh;
+  background: url(124678.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+#enquires h2 {
+  color: #fff;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+#enquires .course-heading {
+  color: #fff;
+}
+#enquires input {
+  width: 275px;
+  background: #f5f5f5;
+  padding: 12px;
+  border-radius: 25px;
+  border: 1px solid #d9d9d9;
+}
+::placeholder {
+  font-size: 14px;
+  font-weight: 400;
+}
+footer .nav-link {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 1285px) {
+  #hero {
+    min-height: 80vh;
+  }
+  #course {
+    min-height: 80vh;
+  }
+  #about {
+    min-height: 50vh;
+  }
+  #enquires {
+    min-height: 50vh;
+  }
+}
